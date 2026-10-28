@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/>
+    </marker>
+  </defs>
+  <text x="410" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#10243e">QA Bug Tracker — Workflow</text>
+  <rect x="10" y="80" width="150" height="60" rx="12" fill="#fff4ec" stroke="#ea580c" stroke-width="2"/>
+  <text x="85" y="115" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">Tester</text>
+  <rect x="215" y="80" width="170" height="60" rx="12" fill="#fff4ec" stroke="#ea580c" stroke-width="2"/>
+  <text x="300" y="115" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">Browser UI</text>
+  <rect x="440" y="80" width="150" height="60" rx="12" fill="#fff4ec" stroke="#ea580c" stroke-width="2"/>
+  <text x="515" y="115" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">localStorage</text>
+  <rect x="645" y="80" width="165" height="60" rx="12" fill="#fff4ec" stroke="#ea580c" stroke-width="2"/>
+  <text x="727" y="115" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">JSON / CSV export</text>
+  <line x1="160" y1="110" x2="215" y2="110" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="385" y1="110" x2="440" y2="110" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="590" y1="110" x2="645" y2="110" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="410" y="175" text-anchor="middle" font-size="13" fill="#44546a">Report → triage → fix → export. Runs fully offline, no server needed.</text>
+</svg>

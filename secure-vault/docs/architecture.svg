@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <text x="410" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#10243e">Secure Vault — Encryption Flow</text>
+  <rect x="10" y="80" width="170" height="70" rx="12" fill="#f3efff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="95" y="110" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">Master password</text>
+  <text x="95" y="132" text-anchor="middle" font-size="13" fill="#7c3aed">(never stored)</text>
+  <rect x="235" y="80" width="170" height="70" rx="12" fill="#f3efff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="320" y="110" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">PBKDF2</text>
+  <text x="320" y="132" text-anchor="middle" font-size="13" fill="#44546a">600,000 iterations</text>
+  <rect x="460" y="80" width="150" height="70" rx="12" fill="#f3efff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="535" y="110" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">Fernet key</text>
+  <text x="535" y="132" text-anchor="middle" font-size="13" fill="#44546a">AES + HMAC</text>
+  <rect x="665" y="80" width="145" height="70" rx="12" fill="#f3efff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="737" y="110" text-anchor="middle" font-size="15" font-weight="600" fill="#10243e">Vault file</text>
+  <text x="737" y="132" text-anchor="middle" font-size="13" fill="#44546a">0600, encrypted</text>
+  <line x1="180" y1="115" x2="235" y2="115" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="405" y1="115" x2="460" y2="115" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="610" y1="115" x2="665" y2="115" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="410" y="190" text-anchor="middle" font-size="13" fill="#44546a">Wrong password → decryption fails → vault stays closed. Nothing to attack offline.</text>
+</svg>
