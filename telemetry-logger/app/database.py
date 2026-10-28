@@ -76,11 +76,9 @@ def fetch_stats() -> dict:
             " ORDER BY sensor_id"
         ).fetchall()
         latest = conn.execute(
-            "SELECT r.* FROM readings r"
-            " INNER JOIN (SELECT sensor_id, MAX(recorded_at) AS t"
-            " FROM readings GROUP BY sensor_id) m"
-            " ON r.sensor_id = m.sensor_id AND r.recorded_at = m.t"
-            " ORDER BY r.sensor_id"
+            "SELECT * FROM readings WHERE id IN"
+            " (SELECT MAX(id) FROM readings GROUP BY sensor_id)"
+            " ORDER BY sensor_id"
         ).fetchall()
     return {
         "total_readings": total,
