@@ -1,6 +1,6 @@
 # Industry-Level Projects — Mashhood Ali
 
-Three complete, working projects built for industry and PAEC/DTS-track
+Three complete, working projects built for industry and engineering
 recruiters. Each has its own README with setup and run instructions.
 
 | # | Project | Stack | Industry angle |

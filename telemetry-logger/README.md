@@ -34,7 +34,7 @@ every 2 seconds. Watch the dashboard update live.
 
 ## Why this matters
 - **Industrial relevance:** telemetry and data-logging are core to plant
-  monitoring, the exact domain of KANUPP/PAEC operations support.
+  monitoring, the exact domain of industrial operations support.
 - **Real backend skills:** REST design, validation (Pydantic), indexed
   queries, stats aggregation in SQL.
 - **Extensible:** add alert thresholds, CSV export, or authentication

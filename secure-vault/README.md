@@ -2,7 +2,7 @@
 
 Encrypted credential store that runs entirely on your own machine —
 no cloud account, no server, nothing leaves the device. The kind of
-secure-local-storage tooling valued in defense and plant environments,
+secure-local-storage tooling valued in industrial and plant environments,
 where sensitive data must stay offline.
 
 ## Security design
