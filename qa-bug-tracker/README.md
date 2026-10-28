@@ -10,6 +10,10 @@ with severity and steps to reproduce, triage by filter and search,
 track fix rate, and export the report as JSON or CSV for a client
 or team. No server, no install, no framework — just open the page.
 
+## 📸 Screenshot
+
+![QA Bug Tracker](app.png)
+
 ## ✨ Features
 
 - **Full bug lifecycle** — report → open → fixed → reopen, plus delete

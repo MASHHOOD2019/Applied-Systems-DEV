@@ -11,6 +11,10 @@ SQLite, and a dashboard shows live stats, per-sensor trends, and
 recent readings. Built as the kind of data-logging tool used in
 industrial operations support.
 
+## 📸 Screenshot
+
+![Telemetry Dashboard](dashboard.png)
+
 ## ✨ Features
 
 - **REST ingestion API** — POST readings with validation

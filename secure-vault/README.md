@@ -9,6 +9,10 @@ machine — no cloud account, no server, nothing leaves the device.
 Secure-local-storage tooling valued in industrial and plant
 environments, where sensitive data must stay offline.
 
+## 📸 Screenshot
+
+![Secure Vault CLI](cli.png)
+
 ## ✨ Features
 
 - **Real encryption** — Fernet (AES-128-CBC + HMAC) via the
