@@ -1,0 +1,29 @@
+:root { font-family: system-ui, sans-serif; color: #1c2430; }
+body { margin: 0; background: #f4f6f9; }
+header { background: #10243e; color: #fff; padding: 1.5rem 2rem; }
+header p { margin: 0.25rem 0 0; opacity: 0.8; }
+main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+section { background: #fff; border-radius: 10px; padding: 1.25rem;
+          margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.cards { display: flex; flex-wrap: wrap; gap: 1rem; background: none;
+         box-shadow: none; padding: 0; }
+.card { background: #fff; border-radius: 10px; padding: 1rem 1.25rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08); min-width: 140px; }
+.card b { font-size: 1.6rem; display: block; }
+.card span { opacity: 0.7; font-size: 0.9rem; }
+form { display: flex; flex-direction: column; gap: 0.6rem; }
+input, select, textarea, button { padding: 0.6rem; font-size: 1rem; border: 1px solid #d3d9e0; border-radius: 6px; }
+button { background: #2563eb; color: #fff; border: none; cursor: pointer; }
+button:hover { background: #1d4ed8; }
+.filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.bug { border: 1px solid #e5e8ec; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; }
+.bug.fixed { opacity: 0.65; }
+.bug h3 { margin: 0 0 0.25rem; }
+.bug pre { white-space: pre-wrap; background: #f4f6f9; padding: 0.6rem; border-radius: 6px; }
+.tag { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 20px;
+       font-size: 0.8rem; color: #fff; margin-right: 0.4rem; }
+.Critical { background: #dc2626; } .Major { background: #ea580c; }
+.Minor { background: #ca8a04; } .Trivial { background: #6b7280; }
+.Open { background: #2563eb; } .Fixed { background: #16a34a; }
+.bug button { margin-right: 0.4rem; padding: 0.4rem 0.8rem; font-size: 0.9rem; }
+.bug button.delete { background: #dc2626; }

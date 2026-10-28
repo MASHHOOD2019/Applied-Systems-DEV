@@ -1,0 +1,16 @@
+:root { font-family: system-ui, sans-serif; color: #1c2430; }
+body { margin: 0; background: #f4f6f9; }
+header { background: #10243e; color: #fff; padding: 1.5rem 2rem; }
+header p { margin: 0.25rem 0 0; opacity: 0.8; }
+main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+.cards { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+.card { background: #fff; border-radius: 10px; padding: 1rem 1.25rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08); min-width: 160px; }
+.card b { font-size: 1.6rem; display: block; }
+.card span { opacity: 0.7; font-size: 0.9rem; }
+section { background: #fff; border-radius: 10px; padding: 1.25rem;
+          margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #e5e8ec; }
+canvas { width: 100%; margin-top: 1rem; }
+select { margin-left: 0.5rem; padding: 0.3rem 0.5rem; }

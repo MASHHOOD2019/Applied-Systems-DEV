@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QA Bug Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>QA Bug Tracker</h1>
+  <p>Report, triage and track defects — with exportable test reports</p>
+</header>
+
+<main>
+  <section id="stats" class="cards"></section>
+
+  <section>
+    <h2>Report a bug</h2>
+    <form id="bugForm">
+      <input id="title" placeholder="Bug title (e.g. Login button unresponsive on mobile)" required>
+      <input id="module" placeholder="Module / page (e.g. Checkout)" required>
+      <select id="severity">
+        <option>Critical</option>
+        <option>Major</option>
+        <option>Minor</option>
+        <option>Trivial</option>
+      </select>
+      <textarea id="steps" placeholder="Steps to reproduce&#10;1. ...&#10;2. ...&#10;Expected: ...&#10;Actual: ..." rows="4" required></textarea>
+      <button type="submit">Add bug</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Bug list</h2>
+    <div class="filters">
+      <input id="search" placeholder="Search bugs...">
+      <select id="filterSeverity">
+        <option value="">All severities</option>
+        <option>Critical</option><option>Major</option>
+        <option>Minor</option><option>Trivial</option>
+      </select>
+      <select id="filterStatus">
+        <option value="">All statuses</option>
+        <option>Open</option><option>Fixed</option>
+      </select>
+      <button id="exportJson">Export JSON</button>
+      <button id="exportCsv">Export CSV</button>
+    </div>
+    <div id="bugList"></div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

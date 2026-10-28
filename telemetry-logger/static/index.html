@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telemetry Dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>Telemetry Dashboard</h1>
+  <p>Local sensor data logging &amp; monitoring</p>
+</header>
+
+<main>
+  <section id="stats" class="cards"></section>
+
+  <section>
+    <h2>Sensor trend</h2>
+    <label>Sensor
+      <select id="sensorSelect"></select>
+    </label>
+    <canvas id="chart" width="800" height="260"></canvas>
+  </section>
+
+  <section>
+    <h2>Recent readings</h2>
+    <table>
+      <thead>
+        <tr><th>Time</th><th>Sensor</th><th>Value</th><th>Unit</th></tr>
+      </thead>
+      <tbody id="readingsBody"></tbody>
+    </table>
+  </section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
