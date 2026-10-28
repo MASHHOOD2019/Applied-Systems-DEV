@@ -12,9 +12,3 @@ recruiters. Each has its own README with setup and run instructions.
 All three were tested end-to-end before delivery: API endpoints,
 encryption round-trip (including wrong-password rejection), and JS
 syntax checks all pass.
-
-## Suggested next steps
-1. Push these to GitHub (one repo, e.g. `industry-projects`).
-2. LinkedIn post per project: problem → what you built → one lesson.
-3. Next level after these: rebuild the bug tracker frontend in React +
-   Tailwind, and add JWT auth + alert thresholds to the telemetry API.
